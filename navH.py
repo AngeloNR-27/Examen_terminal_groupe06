@@ -1,0 +1,16 @@
+def nav():
+    result = '<nav class="navbar navbar-expand-lg bg-light" style="width: 100%; background-color: #f5f5f5; height: 100vh;">'
+    result += '<div class="container-fluid justify-content-center">'
+    result += '<ul class="navbar-nav flex-column" style="font-weight: bold; text-align: center;">'
+    result += '<li class="nav-item"><a class="nav-link text-dark" href="/">Menu</a></li>'
+    result += '<li class="nav-item"><a class="nav-link text-dark" href="/main">Main</a></li>'
+    result += '<li class="nav-item"><a class="nav-link text-dark" href="/genre">Genre</a></li>'
+    result += '<li class="nav-item"><a class="nav-link text-dark" href="/artist">Artists</a></li>'
+    result += '<li class="nav-item"><a class="nav-link text-dark" href="/album">Album</a></li>'
+    result += '<li class="nav-item"><a class="nav-link text-dark" href="/track">Track</a></li>'
+    result += '<li class="nav-item"><a class="nav-link text-dark" href="/media">Media type</a></li>'
+    result += '<li class="nav-item"><a class="nav-link text-dark" href="/playlist">Playlist</a></li>'
+    result += '</ul>'
+    result += '</div>'
+    result += '</nav>'
+    return result
