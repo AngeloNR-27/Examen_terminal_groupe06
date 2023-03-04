@@ -28,9 +28,9 @@ class artist:
 
         result += '<body>'
         result += nav.nav()
-        result += '<table class="table table-secondary" border="1" style="width: 90%; margin: 0 auto;">'
+        result += '<table class="table table-dark" border="1" style="width: 90%; margin: 0 auto;">'
 
-        result += '<tr class="table-secondary"><th>Artist</th></tr>'
+        result += '<tr class="table-light"><th>Artist</th></tr>'
         for artist in artists:
             result += '<tr>'
            
