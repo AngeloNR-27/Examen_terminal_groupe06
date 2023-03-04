@@ -1,9 +1,25 @@
 import web
 from DB import Db
+from main import main
+from home import home
+from genre  import genre
+from artist import artist
+from album import album
+from track import track
+from playlist import playlist
+from media_type import media
 web.config.debug = True
 
 urls = (
-    '/', 'index'
+    '/', 'index',
+    '/main', 'main',
+    '/home', 'home',
+    '/genre', 'genre',
+    '/artist', 'artist',
+    '/album', 'album',
+    '/track', 'track',
+    '/playlist', 'playlist',
+    '/media', 'media',
 )
 
 class index:
